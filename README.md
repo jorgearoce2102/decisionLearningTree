@@ -1,22 +1,25 @@
 
 
+
+# Decision Tree Algorithm
+
 Implementation of the Decision Tree (DT) algorithm for supervised learning.
 DT theory is taken from AI a modern approach (Russel, Norving) chapter 18.3
 
-Prerequisites:
+## Prerequisites:
 
 Numpy
 
-Usage:
-
+## Usage:
+```
 python dt.py <dataset dir> <exemple>
+```
+`<dataset dir>` : the directory in which the dataset is saved (read Dataset requirements listed below)
 
-<dataset dir> : the directory in which the dataset is saved (read Dataset requirements listed below)
-
-<exemple> : attributes of a classification exemple, all together separated by a coma
+`<exemple>` : attributes of a classification exemple, all together separated by a coma
 
 
-Dataset requirements:
+### Dataset requirements:
 
 Dataset must be saved in a text file readible by Numpy and composed of
 attribute columns from left to right and a classification column at the
